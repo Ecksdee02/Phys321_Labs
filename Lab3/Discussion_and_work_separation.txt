@@ -1,0 +1,29 @@
+Authors: Jonathan Larkin (insert ID), Shilin Sun (261052661)
+
+
+Discussion of our code:
+
+The goal is to show that the farther away a galaxy is, the lower the variance of the flux between 
+different pixels is. Therefore, we decided to plot the standard deviation of the flux on the y axis 
+and the distance on the x axis. Below is a brief description of how our code works.
+
+The code that we wrote generates a simulation of what the sky looks like. Stars are randomly generated 
+in a box with a predefined sidelength. The number of stars generated is proportial to the distance. This 
+is logically consistent since the farther we look, the more stars we see. The box full of stars is then 
+divided into subdivisions of equal size, which represent pixels. The standard deviation across different 
+pixels is then computed at each distance.
+
+Using a curve fit function, we can conclude that the variance is inversely proportional to the distance. 
+This is consistent with our expectations. The standard deviation is proportional to sqrt(lambda)/distance^2.
+Since lambda is proportional to distance^2, we obtain that the standard deviation is proportional to 1/distance, 
+which is exactly the relationship that our plot shows.
+
+In order to make our code more realistic, we could assign each star a random Luminosity. We would 
+still obtain the correct relationship. Since the brightness is random, as the number of stars increase, the 
+average brightness in each pixel should not differ too much between pixels.
+
+
+Author contributions:
+
+During the lab period, we took the pair coding approach. Jonathan was the driver and Shilin was the navigator.
+Afterward, it was a mix of individual commits and pair coding. 
