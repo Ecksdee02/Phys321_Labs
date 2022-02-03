@@ -7,7 +7,7 @@ The goal is to show that the farther away a galaxy is, the lower the variance of
 different pixels is. Therefore, we decided to plot the standard deviation of the flux on the y axis 
 and the distance on the x axis. Below is a brief description of how our code works.
 
-The code that we wrote generates a simulation of what the sky looks like. Stars are randomly generated 
+The code that we wrote generates a simulation of what the sky looks like from the fixed frame of a telescope. Stars are randomly generated 
 in a box with a predefined sidelength. The number of stars generated is proportial to the distance. This 
 is logically consistent since the farther we look, the more stars we see. The box full of stars is then 
 divided into subdivisions of equal size, which represent pixels. The standard deviation across different 
@@ -25,5 +25,5 @@ average brightness in each pixel should not differ too much between pixels.
 
 Author contributions:
 
-During the lab period, we took the pair coding approach. Jonathan was the driver and Shilin was the navigator.
-Afterward, it was a mix of individual commits and pair coding. 
+During the lab period, we took the pair coding approach, with Jonathan as the driver, and Shilin the navigator.
+Afterward, however, both lab partners contributed separately with individual commits. 
