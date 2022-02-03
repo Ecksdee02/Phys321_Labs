@@ -1,4 +1,4 @@
-Authors: Jonathan Larkin (insert ID), Shilin Sun (261052661)
+Authors: Jonathan Larkin (260919659), Shilin Sun (261052661)
 
 
 Discussion of our code:
